@@ -1,5 +1,5 @@
 import torch
-from value import Value
+from autodiff import Value
 
 # DIRECTLY TAKEN FROM ANJREJ KARPATHY MICROGRAD FOR TESTING PURPOSES
 def test_sanity_check():
