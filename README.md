@@ -1,4 +1,4 @@
-# Micrograd-based MLP Neural Network
+# Small Autograd Engine
 
 This project is a minimal neural network implementation using automatic differentiation based on Andrej Karpathy's **micrograd**. It includes a simple multi-layer perceptron (MLP) built from scratch with support for different activation functions and gradient backpropagation.
 
@@ -35,9 +35,3 @@ Provides an example training loop for the MLP.
 - **Added Sigmoid Activation:** Added sigmoid activation function support in both `value.py` and `mlp.py`.  
 - **Refactoring:** Cleaned up and improved comments for clarity.  
 - **Separate Topological Sort:** Extracted and implemented a topological sort utility inside the `Value` class for proper backpropagation order.   
-
----
-
-## Credits
-
-This implementation is based on the work of Andrej Karpathy and his work on micrograd.
